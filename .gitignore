@@ -1,0 +1,57 @@
+# Ignore build directories
+/build/
+/cmake-build-*/
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore Ninja generated files
+build.ninja
+rules.ninja
+.ninja_deps
+.ninja_log
+
+# Ignore Visual Studio Code workspace files
+.vscode/
+
+# Ignore JetBrains CLion project files
+.idea/
+
+# Ignore Google Test download directory
+/googletest-download/
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.dll
+*.so
+*.so.*
+*.dylib
+*.lib
+*.a
+*.exp
+*.pdb
+
+# Ignore executable files
+*.exe
+*.out
+*.app
+
+# Ignore other temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+*.DS_Store
